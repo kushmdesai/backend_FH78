@@ -130,3 +130,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 #     "http://localhost:3000",
 #     "https://your-frontend.com",
 # ]
+import os
+
+ALLOWED_HOSTS = ['*']
+DEBUG = False
+
+PORT = os.environ.get('PORT', 8000)
