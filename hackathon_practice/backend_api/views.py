@@ -6,11 +6,11 @@ from google import genai
 @csrf_exempt
 def generate_text(request):
     if request.method == "POST":
-        client = genai.Client(api_key=process.env.GOOGLE_API_KEY)
+        client = genai.Client(api_key="AIzaSyDsqllXdHi4MwFskfrIpaNOfMNOc4Yphhk")
         body = json.loads(request.body)
         input_text = body.get("input_text")
         result = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-pro-exp-03-25",
             contents=[input_text],
             )
         return JsonResponse({"response": result.text})
