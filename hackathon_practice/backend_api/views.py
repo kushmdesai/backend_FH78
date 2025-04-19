@@ -10,14 +10,14 @@ file_path = pathgetter('systeminstruction.txt')
 promt_path = pathgetter('promt.txt')
 response_path = pathgetter('response.txt')
 system_path = pathgetter('questioninstruction.txt')
-
+GOOGLE_API_KEY = 'AIzaSyDsqllXdHi4MwFskfrIpaNOfMNOc4Yphhk'
 @csrf_exempt
 def generate_text(request):
     if request.method == "POST":
         system_content = reader(file_path)
         promt_content = reader(promt_path)
 
-        client = genai.Client(api_key=process.env.GOOGLE_API_KEY)
+        client = genai.Client(api_key=GOOGLE_API_KEY)
         body = json.loads(request.body)
         grade = body.get("grade")
         location = body.get("location")
@@ -53,7 +53,7 @@ def generate_text(request):
 @csrf_exempt
 def generate_questions(request):
     system_content = reader(system_path)
-    client = genai.Client(api_key=process.env.GOOGLE_API_KEY)
+    client = genai.Client(api_key=GOOGLE_API_KEY)
     body = json.loads(request.body)
     promt = body.get("question")
     result = client.models.generate_content(
