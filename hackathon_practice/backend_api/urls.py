@@ -1,6 +1,9 @@
 from django.urls import path
-from . import views
+from .views import *
+from .test import test_view  # note the function, not the module
 
 urlpatterns = [
-    path('generate/', views.generate_text, name='generate_text'),
+    path('generate/', generate_text, name='generate_text'),
+    path('test/', test_view, name='test'),
+    path('question/', generate_questions, name='generate_questions'),
 ]

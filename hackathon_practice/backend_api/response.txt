@@ -1,0 +1,22 @@
+{
+  "evaluation": [
+    {
+      "question": "Solve for x: 3x + 5 = 14",
+      "answer": "x = 3",
+      "instructions": "Isolate the variable 'x' by performing inverse operations on both sides of the equation.",
+      "tips": "Subtract 5 from both sides first, then divide by 3."
+    },
+    {
+      "question": "A shirt costs $20 and is on sale for 25% off. What is the sale price of the shirt?",
+      "answer": "$15",
+      "instructions": "Calculate the amount of the discount and then subtract it from the original price.",
+      "tips": "25% is equal to 0.25. Multiply the original price by 0.25 to find the discount amount."
+    },
+    {
+      "question": "Calculate the area of a triangle with a base of 8 cm and a height of 6 cm.",
+      "answer": "24 cm\u00b2",
+      "instructions": "Use the formula for the area of a triangle: Area = (1/2) * base * height",
+      "tips": "Make sure to include the correct units (cm\u00b2)."
+    }
+  ]
+}
