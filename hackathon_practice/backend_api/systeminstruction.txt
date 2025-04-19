@@ -10,6 +10,7 @@ evaluation = {
       "tips": str,  # Helpful tips for solving the problem
       "question": str,  # The actual question or task
       "answer": str  # The correct answer or solution
+      "link": str # link to where the student can learn more about the problem and solution if they get the answer wrong
     }
   ]
 }
