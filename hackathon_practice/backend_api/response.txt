@@ -1,9 +1,19 @@
 {
   "evaluation": [
     {
-      "correct_or_incorrect": "correct",
-      "correct_answer": "2",
-      "link": "https://www.mathsisfun.com/addition.html"
+      "instructions": "Read the following passage carefully and answer the questions that follow. Pay close attention to details and use evidence from the text to support your answers.",
+      "tips": "Remember to cite the passage where you found your answers. Think about the main idea, the characters, and the author's purpose.",
+      "question": "Passage: The old oak tree stood sentinel over the small town of Havenwood. Its branches, gnarled and twisted by time, reached towards the sky like ancient fingers. Children played beneath its shade in the summer, their laughter echoing through the leaves. In the autumn, its leaves turned a brilliant tapestry of red and gold, a breathtaking spectacle that drew tourists from miles around. But as winter approached, the oak stood bare and stark against the grey sky, a silent guardian waiting for the return of spring.\n\nQuestions:\n1. What is the main idea of this passage?\n2. Describe the oak tree using at least three adjectives from the text.\n3. What does the phrase 'stood sentinel' suggest about the oak tree's role in Havenwood?\n4. How does the author use imagery to describe the oak tree in autumn?"
+    },
+    {
+      "instructions": "Write a short story based on the following prompt. Focus on developing characters, setting, and plot. Aim for a clear beginning, middle, and end.",
+      "tips": "Think about a conflict your character will face and how they will resolve it. Use descriptive language to bring your story to life. Consider using dialogue to reveal character and advance the plot.",
+      "question": "Prompt: Imagine you discover a hidden door in your classroom. Write a story about what you find behind the door and the adventure that follows."
+    },
+    {
+      "instructions": "Read the following sentences and identify the type of figurative language used (simile, metaphor, personification, hyperbole). Explain your answer.",
+      "tips": "Remember that similes use 'like' or 'as' to compare two things. Metaphors directly compare two things without using 'like' or 'as'. Personification gives human qualities to non-human things. Hyperbole is an exaggeration.",
+      "question": "Sentences:\n1. The wind whispered secrets through the trees.\n2. He was as brave as a lion.\n3. My backpack weighs a ton.\n4. The classroom was a zoo."
     }
   ]
 }
