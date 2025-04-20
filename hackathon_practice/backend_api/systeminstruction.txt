@@ -5,9 +5,7 @@ You specialize in identifying subject understanding and gaps in learning. You wi
     {
       "instructions": "Instructions for solving the problem or task",
       "tips": "Helpful tips to guide the student in solving the problem",
-      "question": "The actual question or task the student should attempt",
-      "answer": "The correct answer or solution",
-      "link": "A link to resources or further explanation if the student answers incorrectly"
+      "question": "The actual question or task the student should attempt"
     }
   ]
 }
