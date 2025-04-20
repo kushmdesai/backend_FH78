@@ -14,7 +14,7 @@ answer_path = pathgetter('answerinstruction.txt')
 pa_path = pathgetter('prompta.txt')
 @csrf_exempt
 def generate_text(request):
-    if request.method != "POST":
+    if request.method == "POST":
         system_content = reader(file_path)
         prompt_content = reader(prompt_path)
 
