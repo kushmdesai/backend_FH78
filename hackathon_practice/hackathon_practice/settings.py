@@ -133,6 +133,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 import os
 
 ALLOWED_HOSTS = ['*']
-DEBUG = False
+DEBUG = True
 
 PORT = os.environ.get('PORT', 8000)
